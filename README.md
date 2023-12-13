@@ -1,10 +1,14 @@
-TODO: This script is not consistent with the schema discussed, some column/variable names need to be changed as well as the SPARQL query present in the code. 
+# Python Script
+
+Creates connection to MySQL server, creates database and database connection, creates table in database and inserts data from a SPARQL query.
+
+## Versions
 
 MySQL Workbench version = 8.0.34
 
-
 Python version = 3.12
 
+## Instructions
 
 Call create_server_connection (return connection to server, for local MySQL sv pass in “localhost”, “root”, and password)
 
@@ -18,4 +22,7 @@ Theres also some variables with on line 135 and 136 that could be assigned as yo
 
 Pass connection returned from  create_database_connection to execute_query with the query wanted, createTable is a query that creates a table in the database. 
 
-From there you can replace the SPARQL query with another one, but you would need to change some variables names in there in order to be consistent with the insert query. 
+From there you can replace the SPARQL query with another one, but you would need to change some variables names in there in order to be consistent with the insert query.
+
+## TODO:
+This script is not consistent with the schema discussed, some column/variable names need to be changed as well as the SPARQL query present in the code. 
