@@ -8,11 +8,11 @@ from load_biomarker import get_biomarkers
 
 if __name__ == "__main__":
     # Change pw for password in database
-    pw = "maryczelus009"
+    pw = ""
     # Change db for name of database
-    db = "testing"
+    db = ""
 
-    connection = connections.create_database_connection("10.0.0.177", "user", pw, db)
+    connection = connections.create_database_connection("", "", pw, db)
     # The following commented code creates the ontology term,
     # ontology term relation and synonym table into the database, respectively
 
